@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-9pBMrDmxDZOu5Bu6eg1w2eGw8A1fXhP7YO05nd2TNsiNXI6cUzEd8w5iK6ZwKlsyoZ/YuizETl/Efgl2U5r+eg==" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2"></script>
 </head>
 <body class="bg-gray-50 dark:bg-gray-700">
@@ -21,7 +25,7 @@
         </div>
 
         <div onclick="toggleNavbar()" class="nav-1 flex items-center py-3 mx-4 px-4 rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
-            <i class="ri-layout-grid-fill text-2xl dark:text-white"></i>
+            <i class="ri-home-4-fill text-2xl dark:text-white"></i>
             <a href="{{ route('dashboard') }}" class="ml-4 text-decoration-none dark:text-white font-semibold">Dashboard</a>
         </div>
 
@@ -39,20 +43,20 @@
                 <div class="text-left text-sm mt-2 w-4/5 mx-auto pl-10" id="submenu">
                     <ul>
                         <li class="nav-1  flex rounded-lg transition duration-300 ease-in-out hover:scale-105 p-3 text-md items-center gap-2">
-                            <i class="ri-git-repository-fill text-2xl dark:text-white"></i>
-                            <a href="{{ route('data.rombel.page') }}" class= dark:text-white">Data Rombel</a>
+                            <i class="ri-book-2-fill text-2xl dark:text-white"></i>
+                            <a href="{{ route('data.rombel.page') }}">Data Rombel</a>
                         </li>
                         <li class="nav-1 flex rounded-lg transition duration-300 ease-in-out hover:scale-105 p-3 text-md items-center gap-2">
-                            <i class="ri-git-repository-fill text-2xl dark:text-white"></i>
-                            <a href="{{ route('data.rayon.page') }}" class= dark:text-white">Data Rayon</a>
+                            <i class="ri-book-2-fill text-2xl dark:text-white"></i>
+                            <a href="{{ route('data.rayon.page') }}">Data Rayon</a>
                         </li>
                         <li class="nav-1 flex rounded-lg transition duration-300 ease-in-out hover:scale-105 p-3 text-md items-center gap-2">
-                            <i class="ri-git-repository-fill text-2xl dark:text-white"></i>
-                            <a href="{{ route('data.siswa.page') }}" class= dark:text-white">Data Siswa</a>
+                            <i class="ri-book-2-fill text-2xl dark:text-white"></i>
+                            <a href="{{ route('data.siswa.page') }}">Data Siswa</a>
                         </li>
                         <li class="nav-1 flex rounded-lg transition duration-300 ease-in-out hover:scale-105 p-3 text-md items-center gap-2">
-                            <i class="ri-git-repository-fill text-2xl dark:text-white"></i>
-                            <a href="{{ route('data.user.page') }}" class= dark:text-white">Data User</a>
+                            <i class="ri-book-2-fill text-2xl dark:text-white"></i>
+                            <a href="{{ route('data.user.page') }}">Data User</a>
                         </li>
                     </ul>
                 </div>
@@ -141,7 +145,7 @@
                 margin-left: 0;
             }
         }
-    
+
         body.dark {
             background-color: #090909;
             color: white;
